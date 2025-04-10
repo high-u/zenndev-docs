@@ -220,7 +220,7 @@ nvm 使っているからか。
 
 ```bash
 # .env 作成
-echo "BRAVE_API_KEY=<api-key>" >> .env
+echo "BRAVE_API_KEY=XXXXXXXX" >> .env
 
 # .env ファイルのパスを指定して実行
 uvx mcpo --port 8002 -- /Users/hoge/.nvm/versions/node/v22.14.0/bin/node --env-file=/Users/hoge/brave-search-api-key/.env /Users/hoge/.nvm/versions/node/v22.14.0/lib/node_modules/@modelcontextprotocol/server-brave-search/dist/index.js
@@ -231,7 +231,7 @@ uvx mcpo --port 8002 -- /Users/hoge/.nvm/versions/node/v22.14.0/bin/node --env-f
 動かしたかったけど、動いてくれず。情報求ム
 
 ```bash
-uvx mcpo --port 8003 --env OBSIDIAN_API_KEY=<api-key> -- /Users/hoge/Documents/Obsidian\ Vault/.obsidian/plugins/mcp-tools/bin/mcp-server
+uvx mcpo --port 8003 --env OBSIDIAN_API_KEY=XXXXXXXX -- /Users/hoge/Documents/Obsidian\ Vault/.obsidian/plugins/mcp-tools/bin/mcp-server
 ```
 
 エラー出る。Python 詳しくないけど、バグってる？あとで見てみよう。そう、windsurf でね。
