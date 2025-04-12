@@ -81,7 +81,7 @@ mcpo サーバーで MCP Server をラップしている感じ？
 
 mcpo を使用して MCP Server を起動すると、mcpo が MCP Server が用意しているツールの REST API 風なエンドポイントを公開する。
 
-[http://localhost:8000/docs ](http://localhost:8000/docs) で、OpenAPI の仕様を確認できる。（ポート番号は mcpo で MCP Server を起動した時に指定してポート番号）
+[http://localhost:8000/docs ](http://localhost:8000/docs) で、OpenAPI の仕様を確認できる。（ポート番号は mcpo で MCP Server を起動した時に指定したポート番号）
 
 ![oas](/images/bea2eab7b00fd8/image-6.png)
 
@@ -160,7 +160,7 @@ Docker のイメージ作成と実行
 docker build -t open-webui:multibyte .
 
 # Run
-docker run -it -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always open-webui:open-webui:multibyte
+docker run -it -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always open-webui:multibyte
 ```
 
 日本語として読める！よしよし。
