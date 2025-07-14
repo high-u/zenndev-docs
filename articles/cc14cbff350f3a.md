@@ -2,7 +2,7 @@
 title: "claude-code-router と Ollama で遊んでみた。辛いだけだった。"
 emoji: "🦙"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: ["claudecode", "claudecoderouter", "ollama", "qwen3", "qwen25coder"]
+topics: ["claudecode", "lmstudio", "ollama", "qwen3", "qwen25coder"]
 published: true
 ---
 
@@ -41,5 +41,11 @@ Create a simple task management app with only index.html
 
 今回動かした内容だと、メモリが 30GB くらい持っていかれる。まぁ、個人的にはなかなか厳しい結果。
 試行錯誤して、四苦八苦して、楽しかった。
+
+以上
+
+## 追記
+
+LM Studio でも動いた。そりゃそうだ。
 
 以上
